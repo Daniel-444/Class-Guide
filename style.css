@@ -1,0 +1,116 @@
+body{
+  background-image:  url("wallpaper1.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: white;
+}
+
+h1{
+  color: red;
+  text-align: center;
+}
+
+.container {
+  background-color: black;
+  border-radius: 6px;
+  width: 40%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 5px;
+  box-shadow: 10px 10px 5px #888;
+  position: relative;
+  min-width: 445px;
+  max-width: 446px;
+}
+
+.question {
+  font-size: 2em;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border-radius: 6px;
+  background-color: goldenrod;
+  text-align: center;
+}
+
+.choices {
+  font-family: Courier, serif;
+  color: indianred;
+  margin-top: 2em;
+  border-bottom: 2px solid goldenrod  ;
+  padding-bottom: 5px;
+}
+
+.choice {
+  cursor: pointer;
+  font-size: 2em;
+  text-align: center;
+  border-top: 2px solid goldenrod ;
+}
+
+.choice:hover {
+ color: white;
+}
+
+.img_div{
+  display: flex;
+  justify-content: center;
+}
+.title_div{
+  display: flex;
+  text-align: center;
+}
+.exp_div{
+  display: flex;
+  justify-content: center;
+}
+
+.Clase_imagen{ 
+  padding: 5px;
+  max-height:100%;
+  max-width:100%;
+  margin-left: 5px;
+}
+
+.Class_title{
+  color: red;
+}
+
+.class_exp{
+  color: white;
+  text-align: center;
+}
+
+.com_div{
+  display: flex;
+  justify-content: center;
+}
+
+.rep_div{
+  display: flex;
+  justify-content: center;
+}
+
+.BttnComienzo{
+  font-size: 24px;
+  background-color: black;
+  color: red;
+  border: 2px solid goldenrod;
+}
+
+.BttnComienzo:hover{
+ color: white;
+}
+
+.bttnrepetir{
+  font-size: 24px;
+  background-color: black;
+  color: red;
+  border: 2px solid goldenrod;
+}
+
+.bttnrepetir:hover{
+  color: white;
+}
